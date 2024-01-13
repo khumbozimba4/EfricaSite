@@ -19,12 +19,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class,'index']);
+Route::get('/corporate-social-responsibility', [HomeController::class,'CRS'])->name("CSR");
 Route::post('/messege-us', [HomeController::class,'Message'])->name("sendMessage");
 Route::get('/about',[AboutController::class,'index'])->name("about");
 Route::get('/contact',[ContactController::class,'index'])->name("contact");
 Route::get('/blogs',[BlogController::class,'index'])->name("blogs");
 Route::get('/blog/{slug}',[BlogController::class,'showBlog'])->name("blogread");
 
+Route::get('/terms',function(){
+  return view("terms");
+})->name("terms");
 Route::get('/about',[AboutController::class,'index'])->name("about");
 Route::get('/team',[TeamController::class,'index'])->name("team");
  

@@ -25,6 +25,19 @@ class WebServiceController
         return $response->body();
 
     }
+    public function GetAllNews():string{
+        $headers = [
+            'Content-Type' => 'application/json',
+        ];
+        $blogUrl = $this->url."articles/getnews";
+        $response = Http::withHeaders($headers)->get($blogUrl);
+        if ($response->failed()) {
+            echo 'HTTP error: ' . $response->status();
+            Log::error('HTTP error: ' . $response->status());
+        }
+        return $response->body();
+
+    }
     public function GetBlogBySlug(string $slug):string{
         $headers = [
             'Content-Type' => 'application/json',
