@@ -4,23 +4,7 @@
      
     <section class="relative z-10 overflow-hidden pt-28 lg:pt-[150px]">
       <div class="container">
-        <div class="w-full px-4 md:w-4/12 lg:w-5/12">
-          <div class="text-start">
-            <ul class="flex items-center md:justify-start">
-              <li class="flex items-center">
-                <a
-                  class="pr-1 text-base font-medium text-body-color hover:text-primary"
-                  href="/"
-                  >Home</a
-                ><span
-                  class="mr-3 block h-2 w-2 rotate-45 border-t-2 border-r-2 border-body-color"
-                ></span>
-              </li>
-              <li class="text-base font-medium text-primary">About Page</li>
-            </ul>
-          </div>
-        </div>
-        <div class="mx-4 flex flex-wrap items-center justify-center">
+        <div class="-mx-4 flex flex-wrap items-center">
           <div class="w-full px-4 md:w-8/12 lg:w-7/12">
             <div class="mb-8 max-w-[570px] md:mb-0 lg:mb-12">
               <h1
@@ -28,10 +12,31 @@
               >
                 About Us
               </h1>
-             
+              <p class="text-base font-medium leading-relaxed text-body-color">
+                Welcome to Efrica, where innovation meets integrity in the realm 
+                of Information Technology. Established with a passion for excellence,
+                 Efrica stands as a provider of software engineering and cybersecurity
+                  solutions. Our journey is defined by a commitment to pushing technological
+                   boundaries while maintaining the highest standards of ethical conduct.
+              </p>
             </div>
           </div>
-          
+          <div class="w-full px-4 md:w-4/12 lg:w-5/12">
+            <div class="text-end">
+              <ul class="flex items-center md:justify-end">
+                <li class="flex items-center">
+                  <a
+                    class="pr-1 text-base font-medium text-body-color hover:text-primary"
+                    href="/"
+                    >Home</a
+                  ><span
+                    class="mr-3 block h-2 w-2 rotate-45 border-t-2 border-r-2 border-body-color"
+                  ></span>
+                </li>
+                <li class="text-base font-medium text-primary">Blogs</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
       <div>

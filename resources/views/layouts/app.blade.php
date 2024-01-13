@@ -106,6 +106,21 @@
                           >Blogs</a
                         >
                       </li>
+                      
+                      <li class="group relative">
+                        <a
+                          class="flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0"
+                          href="{{route('about')}}"
+                          >Careers</a
+                        >
+                      </li>
+                      <li class="group relative">
+                        <a
+                          class="flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0"
+                          href="{{route('CSR')}}"
+                          >CSR</a
+                        >
+                      </li>
                       <li class="group relative">
                         <a
                           class="flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0"
@@ -120,23 +135,12 @@
                           >About</a
                         >
                       </li>
+                      
                       </ul>
+                      
                   </nav>
                 </div>
-                <div class="flex items-center justify-end pr-16 lg:pr-0">
-                  <a
-                    class="hidden py-3 px-7 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block"
-                    href="#"
-                    >Careers</a
-                  >
-                  <a
-                  class="hidden py-3 px-7 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block"
-                  href="{{route('CSR')}}"
-                  >CSR</a
-                >
-                  
-               
-                </div>
+                
               </div>
             </div>
           </div>
@@ -154,8 +158,13 @@
 <script>
   document.getElementById('navbarToggler').addEventListener('click', function() {
   var navbarCollapse = document.getElementById('navbarCollapse');
+  var submenu = document.querySelector('.submenu'); // Adjust this selector based on your actual submenu structure
+
   navbarCollapse.classList.toggle('invisible');
   navbarCollapse.classList.toggle('opacity-0');
+
+  submenu.classList.toggle('invisible');
+  submenu.classList.toggle('opacity-0');
 });
 
   document.getElementById('ajaxForm').addEventListener('submit', function (event) {

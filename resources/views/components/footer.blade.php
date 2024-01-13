@@ -365,6 +365,14 @@
                   <!-- -->Solutions<!-- -->
                 </a>
               </li>
+              <li>
+                <a
+                  href="{{route('CSR')}}"
+                  class="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                >
+                  <!-- -->CRF<!-- -->
+                </a>
+              </li>
              
             </ul>
           </div>
