@@ -56,9 +56,10 @@
                       class="relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white"
                     ></span>
                   </button>
-                  <nav
+                  <!--<nav
                     id="navbarCollapse"
-                    class="navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white py-4 px-6 duration-300 dark:border-body-color/20 dark:bg-dark lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 invisible top-[120%] opacity-0"
+                    class="navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white py-4 px-6 duration-300 
+                    dark:border-body-color/20 dark:bg-dark lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 invisible top-[120%] opacity-0"
                   >
                     <ul class="block lg:flex lg:space-x-12">
                       <li class="group relative">
@@ -140,8 +141,31 @@
                       
                     
                     </ul>
-                  </nav>
+                  </nav>-->
                 </div>
+                <nav class="navbar mx-auto w-full" >
+                   <ul class="nav-links">
+                    <li style="position: relative;"><a href="#">Home</a></li>
+                    <li class="has-submenu flex cursor-pointer items-center justify-between ">
+                      <a href="#" >Services</a>
+                      <span class="">
+                            <svg width="15" height="14" viewBox="0 0 15 14">
+                              <path
+                                d="M7.81602 9.97495C7.68477 9.97495 7.57539 9.9312 7.46602 9.8437L2.43477 4.89995C2.23789 4.70308 2.23789 4.39683 2.43477 4.19995C2.63164 4.00308 2.93789 4.00308 3.13477 4.19995L7.81602 8.77183L12.4973 4.1562C12.6941 3.95933 13.0004 3.95933 13.1973 4.1562C13.3941 4.35308 13.3941 4.65933 13.1973 4.8562L8.16601 9.79995C8.05664 9.90933 7.94727 9.97495 7.81602 9.97495Z"
+                                fill="currentColor">
+                              </path>
+                            </svg>
+                      </span>
+                        <ul class="submenu" >
+                          <li><a href="#">Service 1</a></li>
+                          <li><a href="#">Service 2</a></li>
+                          <li><a href="#">Service 3</a></li>
+                        </ul>
+                    </li>
+                   <li style="position: relative;"><a href="#">About</a></li>
+                  <!-- Add more list items as needed -->
+                    </ul>
+                   </nav>
                 <div class="flex items-center justify-end pr-16 lg:pr-0">
                   <a
                     class="hidden py-3 px-7 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block"

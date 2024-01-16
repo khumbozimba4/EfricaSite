@@ -9,8 +9,8 @@ use Illuminate\Support\Facades\Log;
 
 class WebServiceController 
 {
-    //private  $url = "https://efricamw.com/api/v1/";
-    private  $url = "http://127.0.0.1:1111/api/v1/";
+    private  $url = "https://efricaadmin.efricamw.com/api/v1/";
+    //private  $url = "http://127.0.0.1:1111/api/v1/";
     //
     public function GetAllBlogs():string{
         $headers = [
