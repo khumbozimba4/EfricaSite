@@ -10,12 +10,10 @@
             <h1
               class="mb-5 text-2xl font-bold text-black dark:text-white sm:text-3xl"
             >
-              Blog Grid
+              Blogs
             </h1>
             <p class="text-base font-medium leading-relaxed text-body-color">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              varius eros eget sapien consectetur ultrices. Ut quis dapibus
-              libero.
+               Find IT and cybersecurity related blogs to help your business.
             </p>
           </div>
         </div>
@@ -31,7 +29,7 @@
                   class="mr-3 block h-2 w-2 rotate-45 border-t-2 border-r-2 border-body-color"
                 ></span>
               </li>
-              <li class="text-base font-medium text-primary">Blog Grid</li>
+              <li class="text-base font-medium text-primary">Blogs</li>
             </ul>
           </div>
         </div>
