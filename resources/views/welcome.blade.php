@@ -297,7 +297,7 @@
             </h2>
             <p class="text-base !leading-relaxed text-body-color md:text-lg">
               Empower your digital fortress with Efrica’s comprehensive cybersecurity solutions.
-               We offer a suite of services tailored to safeguard your assets, including:
+              We offer a suite of services tailored to safeguard your assets, including:
             </p>
           </div>
           <div
@@ -466,17 +466,110 @@
                   class="pr-[10px] text-base font-medium leading-relaxed text-body-color"
                 >
                 Unlock your business potential with our Mobile App Development for iOS and Android.
-                 We create seamless and engaging applications tailored to your needs. Partner with Efrica 
-                 for a cutting-edge mobile experience.
+                We create seamless and engaging applications tailored to your needs. Partner with Efrica 
+                for a cutting-edge mobile experience.
                 </p>
               </div>
             </div>
           </div>
-
-
         </div>
       </section>
-      
+
+      <section>
+    <div class="container mx-auto py-4">
+        <div class = "text-3xl font-bold flex items-center justify-center py-4">The Technology Platforms We use</div>
+        <!-- Mobile Images Row -->
+        <div class="flex flex-row gap-4 py-8">
+             <div class ="w-full flex flex-row items-center">
+             <img src="{{ asset('images/technology_13729759.png') }}" alt="Mobile Image 1" class="w-10 h-10">
+             <p class="text-center text-lg font-semibold">Mobile Development</p>
+             </div>
+            <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                <img src="{{ asset('images/rectangle-26@2x.png') }}" alt="Mobile Image 1" class="w-14 h-14">
+                
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                <img src="{{ asset('images/rectangle-27@2x.png') }}" alt="Mobile Image 2" class="w-14 h-14">
+                
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                <img src="{{ asset('images/rectangle-28@2x.png') }}" alt="Mobile Image 3" class="w-14 h-14">
+                
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                <img src="{{ asset('images/rectangle-29@2x.png') }}" alt="Mobile Image 4" class="w-14 h-14">
+            </div>
+            <!-- Add more columns for other mobile images -->
+        </div>
+        <div class="flex flex-row">
+             <div class ="w-full flex flex-row items-center">
+             <img src="{{ asset('images/computer_11420045.png') }}" alt="Mobile Image 1" class="w-10 h-10">
+             <p class="text-center text-lg font-semibold">Web Development</p>
+             </div>
+            <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                <img src="{{ asset('images/rectangle-32@2x.png') }}" alt="Mobile Image 1" class="w-14 h-14">
+                
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                <img src="{{ asset('images/rectangle-33@2x.png') }}" alt="Mobile Image 2" class="w-14 h-14">
+                
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                <img src="{{ asset('images/rectangle-35@2x.png') }}" alt="Mobile Image 3" class="w-14 h-14">
+                
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                <img src="{{ asset('images/rectangle-37@2x.png') }}" alt="Mobile Image 4" class="w-14 h-14">
+            </div>
+            <!-- Add more columns for other mobile images -->
+        </div>
+        
+        <div class="flex flex-row py-8">
+             <div class ="w-full flex flex-row items-center">
+             <img src="{{ asset('images/browser_1361083.png') }}" alt="Mobile Image 1" class="w-10 h-10">
+             <p class="text-center text-lg font-semibold">Programming Languages</p>
+             </div>
+            <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                <img src="{{ asset('images/rectangle-39@2x.png') }}" alt="Mobile Image 1" class="w-14 h-14">
+                
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                <img src="{{ asset('images/rectangle-40@2x.png') }}" alt="Mobile Image 2" class="w-14 h-14">
+                
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                <img src="{{ asset('images/rectangle-41@2x.png') }}" alt="Mobile Image 3" class="w-14 h-14">
+                
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                <img src="{{ asset('images/rectangle-42@2x.png') }}" alt="Mobile Image 4" class="w-14 h-14">
+            </div>
+            <!-- Add more columns for other mobile images -->
+        </div>
+        <div class="flex flex-row">
+             <div class ="w-full flex flex-row items-center">
+             <img src="{{ asset('images/programming_10256097.png') }}" alt="Mobile Image 1" class="w-10 h-10">
+             <p class="text-center text-lg font-semibold">Other Languages</p>
+             </div>
+            <div class="w-full sm:w-1/2">
+                <img src="{{ asset('images/rectangle-43@2x.png') }}" alt="Mobile Image 1" class="w-14 h-14">
+                
+            </div>
+            <div class="w-full sm:w-1/2 ">
+                <img src="{{ asset('images/rectangle-46@2x.png') }}" alt="Mobile Image 2" class="w-14 h-14">
+                
+            </div>
+            <div class="w-full sm:w-1/2  ">
+                <img src="{{ asset('images/rectangle-47@2x.png') }}" alt="Mobile Image 3" class="w-14 h-14">
+                
+            </div>
+            <div class="w-full sm:w-1/2 ">
+                <img src="{{ asset('images/python.jpg') }}" alt="Mobile Image 3" class="w-14 h-14">
+                
+            </div>
+        </div>
+    </div>
+      </section>
     
       <section id="blog" class="bg-primary/5 py-16 md:py-20 lg:py-28">
         <div class="container">
