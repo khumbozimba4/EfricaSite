@@ -303,99 +303,81 @@
           <div
             class="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3"
           >
-            <div class="w-full">
-              <div class="wow fadeInUp" data-wow-delay=".15s">
-                
-                <h3
-                  class="mb-5 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl"
-                >
-                  Penetration Testing
-                </h3>
-                <p
-                  class="pr-[10px] text-base font-medium leading-relaxed text-body-color"
-                >
-                Our expert team specializes in evaluating the security of your APIs 
-                and applications, meticulously identifying potential weaknesses and 
-                providing strategic recommendations
-                </p>
+              <!--card test-->
+           <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+            <div class="md:flex">
+              <div class="p-8">
+                <div class="uppercase mb-5  text-indigo-500 text-xl sm:text-2xl lg:text-xl xl:text-2xl font-bold">Penetration Testing</div>
+                <p class="mt-2 text-base font-medium leading-relaxed text-body-color">
+                  Our expert team specializes in evaluating the security of your APIs 
+                  and applications, meticulously identifying potential weaknesses and 
+                  providing strategic recommendations
+              </p>
+                </div>
               </div>
-            </div>
-            <div class="w-full">
-              <div class="wow fadeInUp" data-wow-delay=".15s">
-                
-                <h3
-                  class="mb-5 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl"
-                >
-                 Digital Forensics
-                </h3>
-                <p
-                  class="pr-[10px] text-base font-medium leading-relaxed text-body-color"
-                >
-                 We collect, analyse, and preserve  electronic evidence in order to investigate and prevent cybercrimes or other digital incidents. We do Evidence acquision, evidence analysis, and Evidence presevation.
-                </p>
               </div>
-            </div>
-            <div class="w-full">
-              <div class="wow fadeInUp" data-wow-delay=".15s">
-                
-                <h3
-                  class="mb-5 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl"
-                >
-                  Disaster Recovery Plan
-                </h3>
-                <p
-                  class="pr-[10px] text-base font-medium leading-relaxed text-body-color"
-                >
-                  We use comprehensive strategies to ensure the swift and effective restoration of critical business operations in the aftermath of a disruptive event.
-                </p>
+
+              <!--card test-->
+           <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+            <div class="md:flex">
+              <div class="p-8">
+                <div class="uppercase mb-5  text-indigo-500 text-xl sm:text-2xl lg:text-xl xl:text-2xl font-bold"> Digital Forensics</div>
+                <p class="mt-2 text-base font-medium leading-relaxed text-body-color">
+                 We collect, analyse, and preserve  electronic evidence in order to investigate and prevent cybercrimes or other digital incidents. 
+                 We do Evidence acquision, evidence analysis, and Evidence presevation.
+              </p>
+                </div>
               </div>
-            </div>
-            <div class="w-full">
-              <div class="wow fadeInUp" data-wow-delay=".15s">
-                
-                <h3
-                  class="mb-5 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl"
-                >
-                Employee Training & Awareness
-                </h3>
-                <p
-                  class="pr-[10px] text-base font-medium leading-relaxed text-body-color"
-                >
-                 Since the weakest link in cybersecurity is people, we place a paramount focus on Employee Training & Awareness to fortify this crucial link in the cybersecurity chain through comprehensive training programs.
-                </p>
               </div>
-            </div>
-            <div class="w-full">
-              <div class="wow fadeInUp" data-wow-delay=".15s">
-               
-                <h3
-                  class="mb-5 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl"
-                >
-                  Incident Response
-                </h3>
-                <p
-                  class="pr-[10px] text-base font-medium leading-relaxed text-body-color"
-                >
-                We proactively prepare organizations for potential incidents, promptly detect and analyze them when they occur, mitigate their impact, and leverage the experience to enhance future response strategies                </p>
+            
+             <!--card test-->
+           <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+            <div class="md:flex">
+              <div class="p-8">
+                <div class="uppercase mb-5  text-indigo-500 text-xl sm:text-2xl lg:text-xl xl:text-2xl font-bold">Disaster Recovery Plan</div>
+                <p class="mt-2 text-base font-medium leading-relaxed text-body-color">
+                We use comprehensive strategies to ensure the swift and effective restoration of critical business operations in the aftermath of a disruptive event.
+              </p>
+                </div>
               </div>
-            </div>
-            <div class="w-full">
-              <div class="wow fadeInUp" data-wow-delay=".15s">
-               
-                <h3
-                  class="mb-5 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl"
-                >
-                Business Continuity Plan
-                </h3>
-                <p
-                  class="pr-[10px] text-base font-medium leading-relaxed text-body-color"
-                >
+              </div>
+              <!--card test-->
+           <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+            <div class="md:flex">
+              <div class="p-8">
+                <div class="uppercase mb-5  text-indigo-500 text-xl sm:text-2xl lg:text-xl xl:text-2xl font-bold"> Employee Training & Awareness</div>
+                <p class="mt-2 text-base font-medium leading-relaxed text-body-color">
+                Since the weakest link in cybersecurity is people, we place a paramount focus on Employee Training & Awareness to fortify 
+                this crucial link in the cybersecurity chain through comprehensive training programs.
+              </p>
+                </div>
+              </div>
+              </div>
+               <!--card test-->
+           <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+            <div class="md:flex">
+              <div class="p-8">
+                <div class="uppercase mb-5  text-indigo-500 text-xl sm:text-2xl lg:text-xl xl:text-2xl font-bold">Incident Response</div>
+                <p class="mt-2 text-base font-medium leading-relaxed text-body-color">
+                We proactively prepare organizations for potential incidents, promptly detect and analyze them when they occur,
+                mitigate their impact, and leverage the experience to enhance future response strategies                
+              </p>
+                </div>
+              </div>
+              </div>
+              <!--card test-->
+           <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+            <div class="md:flex">
+              <div class="p-8">
+                <div class="uppercase mb-5  text-indigo-500 text-xl sm:text-2xl lg:text-xl xl:text-2xl font-bold"> Business Continuity Plan</div>
+                <p class="mt-2 text-base font-medium leading-relaxed text-body-color">
                 Our Business Continuity Plan (BCP) service is designed to 
                 fortify your organization against potential crises, ensuring 
                 seamless operations even in the wake of unforeseen events.
-                </p>
+              </p>
+                </div>
               </div>
-            </div>
+              </div>
           </div>
                 <br><br>
           <div
@@ -544,7 +526,6 @@
             <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                 <img src="{{ asset('images/rectangle-42@2x.png') }}" alt="Mobile Image 4" class="w-14 h-14">
             </div>
-            <!-- Add more columns for other mobile images -->
         </div>
         <div class="flex flex-row">
              <div class ="w-full flex flex-row items-center">
